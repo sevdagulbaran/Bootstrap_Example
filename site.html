@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <style>
+        .liste li {
+            display: inline-block;
+            padding: 10px;
+            font-size: 13px;
+        }
+        
+        .line {
+            border-bottom: 1px solid #dee2e6;
+            box-shadow: 0 0 6px 2px #eeeeee;
+        }
+        
+        .padding {
+            padding: 60px 60px 0 30px;
+        }
+        
+        .title {
+            font-size: 60px;
+            font-weight: 300px;
+        }
+        
+        .paragraf {
+            font-size: 20px;
+            font-weight: 300px;
+        }
+        
+        .color {
+            font-weight: bold;
+            font-size: 30px;
+        }
+        
+        .month {
+            color: #b3b3b3;
+            font-size: 25px;
+        }
+        
+        footer li {
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="container-fluid ">
+            <div class="row  align-items-center line ">
+                <div class="col">
+                    <p class="mb-0 font-weight-bold "> Company Name </p>
+                </div>
+                <div class="col text-right">
+                    <ul class="list-unstyled liste mb-0">
+                        <li>Features </li>
+                        <li>Enterprise</li>
+                        <li>Support</li>
+                        <li>Pricing</li>
+                        <li>
+                            <a href="#">
+                                <button class="btn btn-outline-primary">
+                                Sign Up
+                                </button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="container text-center">
+            <div class="padding col-md-8 offset-2 pb-5">
+                <h4 class="title display-3">Pricing </h4>
+                <p class="paragraf display-4">
+                    Quickly build an effective pricing table for your potential customers with this Bootstrap example. It's built with default Bootstrap components and utilities with little customization.
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-md-8 offset-2">
+                    <div class="row pb-5 " style="border-bottom: 1px solid #dee2e6;">
+                        <div class="col-md-4">
+                            <div class="card bg-light mb-3">
+                                <div class="card-header">Free</div>
+                                <div class="card-body">
+                                    <div>
+                                        <span class="color">$0 </span>
+                                        <span class="month">/ mo</span>
+                                    </div>
+                                    <ul class="list-unstyled">
+                                        <li>10 users included</li>
+                                        <li>2 GB of storage</li>
+                                        <li>Email support</li>
+                                        <li>Help center access</li>
+                                    </ul>
+                                    <a>
+                                        <button class="btn btn-outline-primary d-block w-100">Sign up for free</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card bg-light mb-3">
+                                <div class="card-header">Pro</div>
+                                <div class="card-body">
+                                    <div>
+                                        <span class="color">$15 </span>
+                                        <span class="month">/ mo</span>
+                                    </div>
+                                    <ul class="list-unstyled">
+                                        <li>10 users included</li>
+                                        <li>2 GB of storage</li>
+                                        <li>Email support</li>
+                                        <li>Help center access</li>
+                                    </ul>
+                                    <a>
+                                        <button class="btn btn-primary d-block w-100">Get Started</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card bg-light mb-3">
+                                <div class="card-header"> Enterprise</div>
+                                <div class="card-body">
+                                    <div>
+                                        <span class="color">$29 </span>
+                                        <span class="month">/ mo</span>
+                                    </div>
+                                    <ul class="list-unstyled">
+                                        <li>10 users included</li>
+                                        <li>2 GB of storage</li>
+                                        <li>Email support</li>
+                                        <li>Help center access</li>
+                                    </ul>
+                                    <a>
+                                        <button class="btn btn-primary d-block w-100">Contact us</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <footer class="pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-2">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img class="mb-2" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
+                            <small class="d-block mb-3 text-muted">© 2017-2018</small>
+                        </div>
+                        <div class="col-md-3">
+                            <h4>Features</h4>
+                            <ul class="list-unstyled">
+                                <li> Cool stuff </li>
+                                <li>Random Feature</li>
+                                <li> Team Feature</li>
+                                <li>Stuff for developers</li>
+                                <li>Another one</li>
+                                <li>Last time</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <h4>Resources</h4>
+                            <ul class="list-unstyled">
+                                <li>Resource </li>
+                                <li>Resource Name</li>
+                                <li>Another resource</li>
+                                <li>Final resource</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <h4>About</h4>
+                            <ul class="list-unstyled">
+                                <li>Team</li>
+                                <li>locations</li>
+                                <li> Privacy</li>
+                                <li>Terms</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    </script>
+</body>
+
+</html>
