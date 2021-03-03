@@ -1,0 +1,138 @@
+.search {
+    background-color: #c3bfbc;
+    width: 8rem;
+    height: 2.2rem;
+}
+
+.custom-head {
+    background-image: url(images/navhead.png);
+    width: auto;
+    height: 190px;
+    position: relative;
+    z-index: 2;
+}
+
+.liste li {
+    display: inline-block;
+    font-size: 13px;
+}
+
+.liste li a {
+    letter-spacing: 2px;
+}
+
+.l-search {
+    position: relative;
+    right: 50px;
+    width: 30px;
+}
+
+.search-form {
+    height: 50px;
+    background-color: #c3bfbc;
+    border: none;
+}
+
+ul li a {
+    color: #7f7770;
+    font-family: 'Open Sans', sans-serif;
+    transition: .3s all;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #1f1c1a;
+}
+
+.deneme {
+    background-image: url(images/mainphoto.png);
+    width: 100%;
+    height: 957px;
+    background-repeat: none;
+    background-size: cover;
+    position: relative;
+    top: -50px;
+}
+
+.pos-rel {
+    position: relative;
+    right: 150px;
+    margin-top: 200px;
+}
+
+.deneme .time {
+    font-family: 'Open Sans', sans-serif;
+    color: #deb37e;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    padding-top: 95px;
+    text-shadow: 1px -3px #d6c9b8;
+}
+
+.deneme h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #54524f;
+    font-weight: normal;
+    font-style: italic;
+    letter-spacing: 3px;
+    margin-top: 20px;
+}
+
+.custom-footer {
+    background-image: url(images/shape_down.png);
+    width: 100%;
+    height: 190px;
+    position: relative;
+    top: 90px;
+}
+
+.bttn-read {
+    font-family: 'Open Sans', sans-serif;
+    color: #776c64;
+    text-shadow: 2px 2px 4px #776c64;
+    background: #fff;
+    margin-top: 50px;
+}
+
+.lets h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: #e2a355;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.card-bg {
+    background: #7f7770;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    color: #fff;
+}
+
+.bttn-card {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px 4px #776c64;
+    background: #7f7770;
+    margin-top: 40px;
+    width: 380px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.custom-dis {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 75px;
+    font-weight: normal;
+   padding-top: 190px;
+}
+
+.bttn-orng {
+    font-family: 'Open Sans', sans-serif;
+    background: #e2a355;
+    margin-top: 40px;
+    text-align: center;
+    color: #fff;
+}
